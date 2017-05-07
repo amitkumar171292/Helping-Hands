@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_default_bg1"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="321dp"
+        android:layout_gravity="center"
+        android:layout_weight="1" 
+        android:layout_marginTop="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical"
+            android:padding="10dp" >
+
+            <ViewFlipper
+                android:id="@+id/viewFlipper1"
+                android:layout_width="match_parent"
+                android:layout_height="261dp" >
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:text="1. Copy your kitty: Learn to do stretching exercises when you wake up. It boosts circulation and digestion, and eases back pain."
+                    android:textSize="18dp"
+                    android:textStyle="italic" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="2. Don’t skip breakfast. Studies show that eating a proper breakfast is one of the most positive things you can do if you are trying to lose weight. Breakfast skippers tend to gain weight. A balanced breakfast includes fresh fruit or fruit juice, a high-fibre breakfast cereal, low-fat milk or yoghurt, whole-wheat toast, and a boiled egg." />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="3. Brush up on hygiene. Many people don&apos;t know how to brush their teeth properly. Improper brushing can cause as much damage to the teeth and gums as not brushing at all. Lots of people don’t brush for long enough, don’t floss and don’t see a dentist regularly. Hold your toothbrush in the same way that would hold a pencil, and brush for at least two minutes. " />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="4. Neurobics for your mind. Gets your brain fizzing with energy.  American researchers coined the term ‘neurobics’ for tasks which activate the brain&apos;s own biochemical pathways and to bring new pathways online that can help to strengthen or preserve brain circuits. " />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="5. Get what you give! Always giving and never taking? This is the short road to compassion fatigue. Give to yourself and receive from others, otherwise you’ll get to a point where you have nothing left to give. And hey, if you can’t receive from others, how can you expect them to receive from you?" />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="6. Get spiritual. A study conducted by the formidably sober and scientific Harvard University found that patients who were prayed for recovered quicker than those who weren’t, even if they weren’t aware of the prayer." />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="7. Get smelly. Garlic, onions, spring onions and leeks all contain stuff that’s good for you. A study at the Child’s Health Institute in Cape Town found that eating raw garlic helped fight serious childhood infections. Heat destroys these properties, so eat yours raw, wash it down with fruit juice or, if you’re a sissy, have it in tablet form." />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="8. Knock one back. A glass of red wine a day is good for you. A number of studies have found this, but a recent one found that the polyphenols (a type of antioxidant) in green tea, red wine and olives may also help protect you against breast cancer. It’s thought that the antioxidants help protect you from environmental carcinogens such as passive tobacco smoke." />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="9. Bone up daily. Get your daily calcium by popping a tab, chugging milk or eating yoghurt. It’ll keep your bones strong. Remember that your bone density declines after the age of 30. You need at least 200 milligrams daily, which you should combine with magnesium, or it simply won’t be absorbed." />
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:textSize="18dp"
+                    android:textStyle="italic"
+                    android:text="10. Berries for your belly. Blueberries, strawberries and raspberries contain plant nutrients known as anthocyanidins, which are powerful antioxidants. Blueberries rival grapes in concentrations of resveratrol – the antioxidant compound found in red wine that has assumed near mythological proportions. Resveratrol is believed to help protect against heart disease and cancer." />
+            </ViewFlipper>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:background="#ffffff"
+        android:gravity="bottom"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:weightSum="2" >
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@drawable/button_default_bg"
+            android:onClick="Previous"
+            android:padding="10dp"
+            android:text="PREVIOUS"
+            android:textColor="#0099cc" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="5dp"
+            android:layout_weight="1"
+            android:background="@drawable/button_default_bg"
+            android:onClick="Next"
+            android:padding="10dp"
+            android:text="NEXT"
+            android:textColor="#0099cc" />
+    </LinearLayout>
+
+</LinearLayout>

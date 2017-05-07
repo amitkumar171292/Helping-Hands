@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_default_bg1"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:padding="10dp" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:orientation="horizontal" >
+
+            <EditText
+                android:id="@+id/etTrack"
+                android:layout_width="228dp"
+                android:layout_height="53dp"
+                android:ems="10"
+                android:layout_weight="1"
+                android:hint="Enter Mobile No."
+                android:inputType="phone" />
+
+            <ImageButton
+                android:id="@+id/ibTrack"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:onClick="ocon"
+                android:layout_gravity="center_vertical"
+                android:background="#ffffff"
+                android:src="@drawable/contacticon" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="#ffffff"
+        android:padding="10dp" >
+
+        <Button
+            android:id="@+id/bTrack"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#0099cc"
+           android:background="@drawable/button_default_bg"
+            android:onClick="sendSms"
+            android:text="TRACK" />
+    </LinearLayout>
+
+</LinearLayout>

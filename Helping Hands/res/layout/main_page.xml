@@ -1,0 +1,327 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_default_bg"
+    android:orientation="vertical" >
+
+    <TabHost
+        android:id="@+id/tabhost"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#ffffff"
+            android:orientation="vertical" >
+
+            <TabWidget
+                android:id="@android:id/tabs"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+            </TabWidget>
+
+            <FrameLayout
+                android:id="@android:id/tabcontent"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" >
+
+                <LinearLayout
+                    android:id="@+id/tab1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    android:padding="10dp" >
+
+                    <ScrollView
+                        android:id="@+id/scrollView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:orientation="vertical" >
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/button_default_bg1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="8dp" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#ffffff"
+                                    android:orientation="vertical" >
+
+                                    <ImageButton
+                                        android:id="@+id/imgbt1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_marginBottom="25dp"
+                                        android:layout_marginTop="20dp"
+                                        android:background="#ffffff"
+                                        android:onClick="startKaro"
+                                        android:src="@drawable/alert" />
+
+                                    <TextView
+                                        android:id="@+id/tv1"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="40dp"
+                                        android:layout_weight="0.15"
+                                        android:text=""
+                                        android:textColor="#ff0000" />
+                                </LinearLayout>
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5dp"
+                                android:background="@drawable/button_default_bg1"
+                                android:gravity="center"
+                                android:orientation="vertical"
+                                android:padding="5dp" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:background="#ffffff"
+                                    android:orientation="vertical"
+                                    android:padding="5dp" >
+
+                                    <Button
+                                        android:id="@+id/help"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="-2dp"
+                                        android:background="@drawable/edittext_bottom_bg1"
+                                        android:padding="10dp"
+                                        android:onClick="help"
+                                        android:text="Help"
+                                        android:textColor="#0099cc" />
+
+                                    <Button
+                                        android:id="@+id/settings"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="-2dp"
+                                        android:background="@drawable/edittext_bottom_bg1"
+                                        android:onClick="setContacts"
+                                        android:padding="10dp"
+                                        android:text="Trusted Contacts"
+                                        android:textColor="#0099cc" />
+                                     <Button
+                                        android:id="@+id/shakeTester"
+                                        android:layout_width="match_parent"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="center"
+                                        android:layout_margin="-2dp"
+                                        android:background="@drawable/edittext_bottom_bg1"
+                                        android:onClick="shake"
+                                        android:padding="10dp"
+                                        android:text="Shake Tester"
+                                        android:textColor="#0099cc" />
+                                    
+                                </LinearLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/tab2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent" >
+
+                    <ScrollView
+                        android:id="@+id/scrollView22"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content" >
+    <LinearLayout
+                            android:id="@+id/Linet1"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:background="@drawable/button_default_bg1"
+                            android:orientation="vertical"
+                            android:padding="10dp" >
+
+                            <LinearLayout
+                                android:id="@+id/Linear1"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:background="@drawable/button_default_bg1"
+                                android:orientation="vertical"
+                                android:padding="10dp" >
+
+                                <TableLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content" >
+
+                                    <TableRow
+                                        android:id="@+id/tableRow1"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="#ffffff" >
+
+                                        <ImageView
+                                            android:id="@+id/imageView1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:onClick="SOS"
+                                            android:src="@drawable/red" />
+
+                                        <ImageView
+                                            android:id="@+id/imageView2"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1.00"
+                                            android:onClick="Tips"
+                                            android:src="@drawable/button1" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:id="@+id/tableRow2"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="#ffffff"
+                                        android:weightSum="2" >
+
+                                        <TextView
+                                            android:id="@+id/textView1"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:text="SOS" />
+
+                                        <TextView
+                                            android:id="@+id/textView11"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:text="Tips" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:id="@+id/tableRow3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:background="#ffffff" >
+
+                                        <ImageView
+                                            android:id="@+id/imageView3"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:onClick="Flip"
+                                            android:src="@drawable/women2" />
+
+                                        <ImageView
+                                            android:id="@+id/imageView4"
+                                            android:layout_width="85dp"
+                                            android:layout_height="match_parent"
+                                            android:layout_marginLeft="5dp"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="0.93"
+                                            android:src="@drawable/scream2" 
+                                            android:onClick="Scream"/>
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:id="@+id/tableRow4"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="#ffffff"
+                                        android:weightSum="2" >
+
+                                        <TextView
+                                            android:id="@+id/textView12"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:text="Women&apos;s Right" />
+
+                                        <TextView
+                                            android:id="@+id/textView13"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:text="Scream Sound" />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:id="@+id/tableRow5"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginTop="10dp"
+                                        android:background="#ffffff" >
+
+                                        <ImageView
+                                            android:id="@+id/imageView32"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_marginTop="5dp"
+                                            android:layout_weight="1"
+                                            android:onClick="TrackIt"
+                                            
+                                            android:src="@drawable/trackit" />
+                                        
+                                          <TextView
+                                            android:id="@+id/textView17"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                             />
+                                    </TableRow>
+
+                                    <TableRow
+                                        android:id="@+id/tableRow6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:background="#ffffff"
+                                        android:weightSum="2" >
+
+                                        <TextView
+                                            android:id="@+id/textView17"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:text="Track your Loved one" />
+
+                                        <TextView
+                                            android:id="@+id/textView19"
+                                            android:layout_width="wrap_content"
+                                            android:layout_height="wrap_content"
+                                            android:layout_weight="1"
+                                            android:gravity="center_horizontal"
+                                            android:text="" />
+                                    </TableRow>
+                                </TableLayout>
+                            </LinearLayout>
+                        </LinearLayout>
+                    </ScrollView>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </TabHost>
+
+</LinearLayout>

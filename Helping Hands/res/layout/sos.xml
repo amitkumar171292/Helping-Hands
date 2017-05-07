@@ -1,0 +1,168 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/button_default_bg1"
+    android:orientation="vertical"
+    android:padding="10dp" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/Heading"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="HotLine Numbers"
+                android:textColor="#8A2908"
+                android:textSize="25sp" />
+
+            <TableLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TableRow
+                    android:id="@+id/tableRow1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/Ambulance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Ambulance Hotline Number"
+                        android:textColor="#FF4000"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/bAmbulance"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_default_bg"
+                        android:onClick="Ambulance"
+                        android:text="102"
+                        android:textColor="#DF0101" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/Police"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Police  Hotline Number"
+                        android:textColor="#FF4000"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/bPolice"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_default_bg"
+                        android:onClick="Police"
+                        android:text="100"
+                        android:textColor="#DF0101" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/Fire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Fire  Hotline Number"
+                        android:textColor="#FF4000"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/bFire"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_default_bg"
+                        android:onClick="Fire"
+                        android:text="101"
+                        android:textColor="#DF0101" />
+                </TableRow>
+
+                <TableRow
+                    android:id="@+id/tableRow4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="#ffffff"
+                    android:padding="5dp" >
+
+                    <TextView
+                        android:id="@+id/US"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="US  Hotline Number"
+                        android:textColor="#FF4000"
+                        android:textSize="15dp"
+                        android:textStyle="italic" />
+
+                    <Button
+                        android:id="@+id/bUS"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/button_default_bg"
+                        android:onClick="US"
+                        android:text="911"
+                        android:textColor="#DF0101" />
+                </TableRow>
+            </TableLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#ffffff"
+                android:orientation="horizontal"
+                android:padding="5dp" >
+
+                <Button
+                    android:id="@+id/bHome"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:background="@drawable/button_default_bg"
+                    android:onClick="Home_Screen"
+                    android:text="Home" 
+                    android:textColor="#01DFD7"
+                    android:textStyle="bold"
+                    android:textSize="25dp"/>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
